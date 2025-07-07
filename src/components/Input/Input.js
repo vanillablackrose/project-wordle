@@ -19,6 +19,9 @@ function Input({ guess, setGuess, submitGuess, guessCount, won }) {
         id="guess-input"
         type="text"
         value={guess}
+        required
+        minlength={5}
+        maxLength={5}
         onChange={(event) =>
           setGuess(event.target.value.toUpperCase())
         }
