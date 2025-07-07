@@ -7,7 +7,7 @@ function Banner({ type, tries = 0, answer }) {
       <div className="happy banner" key="banner">
         <p>
           <strong>Congratulations!</strong> Got it in{' '}
-          <strong>{tries} guesses</strong>.
+          <strong>{tries} guess(es)</strong>.
         </p>
       </div>
     );
